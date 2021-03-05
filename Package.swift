@@ -11,6 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "OpenSSL",
+            type: .static,
             targets: ["OpenSSL"]),
     ],
     targets: [
