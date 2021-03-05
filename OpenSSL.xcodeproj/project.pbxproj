@@ -2270,6 +2270,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/iphoneos/lib",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-Xlinker",
 					"-all_load",
@@ -2354,6 +2355,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/iphoneos/lib",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-Xlinker",
 					"-all_load",
